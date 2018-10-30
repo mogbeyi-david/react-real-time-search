@@ -5,7 +5,7 @@ class Header extends Component {
     return (
       <div className="header">
         <h1>React Search</h1>
-        <p>Here is a list of Reggae artists rendered from a JSON object</p>
+        <p className="about">Here is a list of Reggae artists rendered from a JSON object</p>
       </div>
     )
   }
