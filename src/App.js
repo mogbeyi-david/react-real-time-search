@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import Search from './components/Search';
+//import Search from './components/Search';
 import Artist from './components/Artist';
 
 class App extends Component {
@@ -8,7 +8,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Search />
         <Artist />
       </div>
     );
